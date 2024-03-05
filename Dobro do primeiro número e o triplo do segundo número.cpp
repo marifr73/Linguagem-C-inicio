@@ -4,15 +4,15 @@
 int main (){
 	setlocale(LC_ALL, "Portuguese");
 int x, y, l, m;
-printf("Digite um número: ");
+printf("Digite um nÃºmero: ");
 scanf("%i", &x);
-printf("Digite outro número: ");
+printf("Digite outro nÃºmero: ");
 scanf("%i", &y);
 
 l = x * 2;
 m = y * 3;
 
-printf("\nO dobro de %i é: %i", x, l);
-printf("\nO triplo de %i é: %i", y, m);
+printf("\nO dobro de %i Ã©: %i", x, l);
+printf("\nO triplo de %i Ã©: %i", y, m);
 return(0);
 }

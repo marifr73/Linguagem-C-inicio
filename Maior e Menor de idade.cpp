@@ -6,7 +6,7 @@ int main(){
 int i, idade;
     for (i = 0; i < 10; i++){
 
-    printf("Informe a sua idade: ");
+    printf("Informe a idade da %iª pessoa: ", i);
     scanf("%i", &idade);
     
     if(idade < 18){

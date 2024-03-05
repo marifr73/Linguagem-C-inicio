@@ -18,22 +18,22 @@ int i;
 
     ma = (n1+n2+n3)/3;
 
-    printf("A média do %iª aluno(a) é: %.2f\n\n", i, ma);
+   printf("\n>> A média do %iª aluno(a) é: %.2f\n\n", i, ma);
 
     if (ma >= 9){
-	printf("O conceito é A\n\n");
+	printf("Conceito: A\n\n");
 }
     else if (ma >= 7 && ma < 9){
-	printf("O conceito é B\n\n");
+	printf("Conceito: B\n\n");
 }
     else if(ma >= 6 && ma < 7){
-	printf("O conceito é C\n\n");
+	printf("Conceito: C\n\n");
 }
     else if (ma >= 4 && ma < 6){
-	printf("O conceito é D\n\n");
+	printf("Conceito: D\n\n");
 }
     else {
-	printf("O conceito é E\n\n");
+	printf("Conceito: E\n\n");
 }
 }
 return(0);

@@ -6,11 +6,11 @@ int main(){
    
 int n, i, f = 1;
 
-    printf("Digite um número inteiro: ");
+    printf("Digite um nÃºmero inteiro: ");
     scanf("%i", &n);
 
     if(n < 0)
-        printf("Não existe fatorial de número negativo!\n");
+        printf("NÃ£o existe fatorial de nÃºmero negativo!\n");
     else {
         for(i = 1; i <= n; i++) {
             f *= i;

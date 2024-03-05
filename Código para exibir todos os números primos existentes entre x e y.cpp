@@ -15,7 +15,7 @@ int x, y, i, cont, p;
         scanf("%i", &y);
     } while (y <= x);
 
-    printf("Números primos entre %i e %i:\n", x, y);
+    printf("NÃºmeros primos entre %i e %i:\n", x, y);
 
     for (i = x; i <= y; i++) {
         p = 0;

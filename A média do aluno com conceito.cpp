@@ -18,7 +18,7 @@ int i;
 
     ma = (n1+n2+n3)/3;
 
-    printf("A média do aluno(a) é: %.2f\n\n", m, ma);
+    printf("A média do %iª aluno(a) é: %.2f\n\n", i, ma);
 
     if (ma >= 9){
 	printf("O conceito é A\n\n");

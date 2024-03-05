@@ -6,10 +6,10 @@
 int main(){
     setlocale(LC_ALL, "Portuguese");
 float r, a;
-printf("Informe o raio da circunferência: ");
+printf("Informe o raio da circunferÃªncia: ");
 scanf("%f", &r);
 a = PI * (r * r);
-printf ("A área da circunferência é de: %.2f", a);
+printf ("A Ã¡rea da circunferÃªncia Ã© de: %.2f", a);
 return(0);
 }
 

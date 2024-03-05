@@ -7,15 +7,15 @@ int main(){
 
 int n, q;
 
-printf("***********CARD¡PIO LANCHONETE***********\n");
-printf("|C”DIGO | ESPECIFICA«√O | PRE«O UNIT¡RIO|\n");
+printf("***********CARD√ÅPIO LANCHONETE***********\n");
+printf("|C√ìDIGO | ESPECIFICA√á√ÉO | PRE√áO UNIT√ÅRIO|\n");
 printf("|  100  |CACHORRO QUENTE|      08.00    |\n");
 printf("|  101  |     BAURU     |      09.00    |\n");
 printf("|  102  |    X-SALADA   |      10.00    |\n");
-printf("|  103  |   HAMB⁄RGUER  |      12.00    |\n");
+printf("|  103  |   HAMB√öRGUER  |      12.00    |\n");
 printf("|  104  |  REFRIGERANTE |      03.00    |\n");
 
-printf("Informe o cÛdigo do produto desejado: ");
+printf("Informe o c√≥digo do produto desejado: ");
 scanf("%i", &n);
 
 printf("Informe a quantidade que deseja comprar: ");
@@ -24,28 +24,27 @@ scanf("%i", &q);
 switch (n){
 	
 case 100:
-	printf("O valor a ser pago ser· de: %i.00 reais", (8 * q));
+	printf("O valor a ser pago ser√° de: %i.00 reais", (8 * q));
 	     break;
     
 case 101:
-	printf("O valor a ser pago ser· de: %i.00 reais", (9 * q));
+	printf("O valor a ser pago ser√° de: %i.00 reais", (9 * q));
 	     break;
     
 case 102:
-	printf("O valor a ser pago ser· de: %i.00 reais", (10 * q));
+	printf("O valor a ser pago ser√° de: %i.00 reais", (10 * q));
 	     break;
 	
 case 103:
-    printf("O valor a ser pago ser· de: %i.00 reais", (12 * q));
+    printf("O valor a ser pago ser√° de: %i.00 reais", (12 * q));
 	     break;
     
 case 104:
-	  printf("O valor a ser pago ser· de: %i.00 reais", (3* q));
+	  printf("O valor a ser pago ser√° de: %i.00 reais", (3* q));
 	     break;
     
 default: 
-    printf("O cÛdigo informado È invalido!");
-         break;
+    printf("O c√≥digo informado √© invalido!");
 }
 return(0);
 }

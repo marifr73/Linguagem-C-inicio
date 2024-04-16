@@ -9,6 +9,6 @@ scanf("%f", &a);
 printf("Informe o seu peso: ");
 scanf("%f", &p);
 imc = p/(a*a);
-printf("O seu IMC é: %.2f", imc);
+printf("O seu IMC Ã©: %.2f", imc);
 return(0);
 }

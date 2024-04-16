@@ -8,6 +8,6 @@ printf("Informe o valor a ser convertido em delar: ");
 scanf("%f", &r);
 d = 0.20;
 s = (r * d);
-printf("O valor %.2f reais convertido em dolar é %.2f!", r, s);
+printf("O valor %.2f reais convertido em dolar Ã© %.2f!", r, s);
 return(0);
 }

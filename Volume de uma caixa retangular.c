@@ -11,6 +11,6 @@ scanf("%f", &a);
 printf("Informe a largura da caixa: ");
 scanf("%f", &l);
 v = c * l * a;
-printf("O volume da caixa retangular é de: %.2f", v);
+printf("O volume da caixa retangular Ã© de: %.2f", v);
 return(0);
 }

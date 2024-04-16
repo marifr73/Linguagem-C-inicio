@@ -4,19 +4,19 @@
 int main (){
 	setlocale(LC_ALL,"Portuguese");
 int x, y;
-printf("Informe um número inteiro: ");
+printf("Informe um nÃºmero inteiro: ");
 scanf("%i", &x);
-printf("Informe outro número inteiro: ");
+printf("Informe outro nÃºmero inteiro: ");
 scanf("%i", &y);
 
 if (y == 0){
-	printf("Erro: Divisão por zero não é possivel!");
+	printf("Erro: DivisÃ£o por zero nÃ£o Ã© possivel!");
 }
 else if(x % y == 0 ){
-	printf("É divisivel!");
+	printf("Ã‰ divisivel!");
 }
 else{
-	printf("Não é divisivel!");
+	printf("NÃ£o Ã© divisivel!");
 }
 return(0);
 }

@@ -7,6 +7,6 @@ int main(){
 printf("Informe Celsius: ");
 scanf("%f", &c);
 f = (c * 1.8) + 32;
-printf("O valor de Celsius para Fahrenheit é: %.2f °F", f);
+printf("O valor de Celsius para Fahrenheit Ã©: %.2f Â°F", f);
 return(0);
 }

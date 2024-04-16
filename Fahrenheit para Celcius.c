@@ -9,6 +9,6 @@ scanf("%f", &f);
 
 c = (f-32)/1.8;
 
-printf("O valor de Fahrenheir para Celcius é: %.2f °C",c);
+printf("O valor de Fahrenheir para Celcius Ã©: %.2f Â°C",c);
 return(0);
 }
